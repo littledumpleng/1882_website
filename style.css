@@ -1,0 +1,94 @@
+#logo{
+    margin-left: 22px;
+    margin-top: 2px;
+}
+
+h1{
+    color:darkgreen;
+    font-family: georgia;
+    font-weight: 700;
+}
+
+#subheading{
+    font-family: georgia;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: capitalize; /*all text is capitalized*/
+}
+
+#description{
+    font-family: tahoma;
+    line-height: 200%;
+}
+
+h2 {
+    color:firebrick;
+}
+
+p{
+    color: black;
+    font-family: tahoma; 
+}
+
+div{
+    width: 50%; /*50% of screen width */
+    height: 125px;
+    text-align: center;
+    background-color: beige;
+    padding: 8px;
+    margin: auto; /*centers on any screen size, doesn't get background-color*/
+    border-radius: 16px; /*rounded edges*/
+}
+
+ul{
+    list-style-type: square;
+}
+
+ol{
+    list-style-type: upper-alpha;
+    font-family: tahoma;
+}
+
+a{
+  color: black;  
+  font-family: tahoma;
+  padding: 8px;
+}
+
+a:hover{
+    color: darkgreen;
+    font-weight: bold;
+}
+
+table{
+    margin: auto; 
+    margin-top: 16px;  
+    border-collapse: collapse; /*so it's not double*/
+}
+
+td{
+    font-family: tahoma;
+    border: 1px solid black;
+    padding: 14px;
+}
+
+td:hover{
+    background-color: rgb(116, 156, 21);
+    color: white;
+}
+
+
+/* 
+
+NOTES
+
+3 ways to add CSS styling:
+    1. a separate css file
+    2. <html> <head> <style> ____ </style> </head> </html>
+    3. <h1 style = color:darkgreen>
+
+
+IDs are unique, but classes aren't
+ex: li id = "flour" vs. class id = "ingredients"
+IDs trump classes, which trump generic tags
+*/
